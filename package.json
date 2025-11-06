@@ -1,9 +1,9 @@
 {
-  "name": "winjs-plugin-template",
+  "name": "@winner-fed/plugin-code-inspector",
   "keywords": [
     "winjs",
     "plugin",
-    "template",
+    "code-inspector",
     "winner-fed",
     "winjs-dev",
     "rslib",
@@ -11,10 +11,10 @@
     "typescript",
     "biome"
   ],
-  "version": "0.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winjs-dev/winjs-plugin-template.git"
+    "url": "git+https://github.com/winjs-dev/winjs-plugin-code-inspector.git"
   },
   "license": "MIT",
   "type": "module",
@@ -42,6 +42,9 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npm run lint:write"
+  },
+  "dependencies": {
+    "code-inspector-plugin": "^1.2.10"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
