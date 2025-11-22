@@ -34,8 +34,8 @@ importers:
         specifier: '*'
         version: 0.18.7(@rspack/core@1.6.4(@swc/helpers@0.5.17))(@types/node@22.18.13)(jiti@2.6.1)(lightningcss@1.22.1)(promise-ftp-common@1.1.5)(rollup@4.52.5)(sass-embedded@1.93.2)(sass@1.93.2)(stylus@0.64.0)(terser@5.44.0)(tsx@4.17.0)(typescript@5.9.3)(webpack@5.102.1)(yaml@2.8.1)
       bumpp:
-        specifier: 10.2.3
-        version: 10.2.3
+        specifier: 10.3.1
+        version: 10.3.1
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
@@ -1899,8 +1899,8 @@ packages:
   builtin-status-codes@3.0.0:
     resolution: {integrity: sha512-HpGFw18DgFWlncDfjTa2rcQ4W88O1mC8e8yZ2AvQY5KDaktSTwo+KRf6nHK6FRI5FyRyb/5T6+TSxfP7QyGsmQ==}
 
-  bumpp@10.2.3:
-    resolution: {integrity: sha512-nsFBZACxuBVu6yzDSaZZaWpX5hTQ+++9WtYkmO+0Bd3cpSq0Mzvqw5V83n+fOyRj3dYuZRFCQf5Z9NNfZj+Rnw==}
+  bumpp@10.3.1:
+    resolution: {integrity: sha512-cOKPRFCWvHcYPJQAHN6V7Jp/wAfnyqQRXQ+2fgWIL6Gao20rpu7xQ1cGGo1APOfmbQmmHngEPg9Fy7nJ3giRkQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6317,7 +6317,7 @@ snapshots:
 
   builtin-status-codes@3.0.0: {}
 
-  bumpp@10.2.3:
+  bumpp@10.3.1:
     dependencies:
       ansis: 4.2.0
       args-tokenizer: 0.3.0
